@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Samson | Software Engineer</title>
+    <link rel="icon" href="favicon.png" type="image/svg+xml">
+    <link rel="alternate icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <div class="logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" rx="10" fill="#121212"/>
+                    <path d="M25 30L40 30L55 70M55 30L70 30L55 70" stroke="#00ff9d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <span>MUHAMMED<span class="blink">_SAMSON</span></span>
+        </div>
+        <nav>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#tech">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="code-block">
+                    <div class="code-line"><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {</div>
+                    <div class="code-line indent"><span class="code-property">name</span>: <span class="code-string">"Muhammed Samson"</span>,</div>
+                    <div class="code-line indent"><span class="code-property">role</span>: <span class="code-string">"Software Engineer"</span>,</div>
+                    <div class="code-line indent"><span class="code-property">education</span>: <span class="code-string">"Computer Science & Engineering"</span>,</div>
+                    <div class="code-line indent"><span class="code-property">passion</span>: <span class="code-string">"Problem-solving & AI"</span></div>
+                    <div class="code-line">};</div>
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Muhammed Samson</span></h1>
+                <h2>Software Engineer</h2>
+                <p>Building innovative solutions with clean, efficient code.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="code-sphere" id="code-sphere"></div>
+                <div class="floating-elements">
+                    <div class="floating-icon" style="--delay: 0s;"><i class="fab fa-react"></i></div>
+                    <div class="floating-icon" style="--delay: 2s;"><i class="fab fa-node-js"></i></div>
+                    <div class="floating-icon" style="--delay: 4s;"><i class="fab fa-js"></i></div>
+                    <div class="floating-icon" style="--delay: 6s;"><i class="fab fa-python"></i></div>
+                    <div class="floating-icon" style="--delay: 8s;"><i class="fab fa-database"></i></div>
+                </div>
+                <div class="glow-circle"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About <span class="gradient-text">Me</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-graphic">
+                <div class="code-animation">
+                    <pre class="code-block-animated">
+<span class="code-comment">// About Me Function</span>
+<span class="code-keyword">function</span> <span class="code-function">getAboutMe</span>() {
+    <span class="code-keyword">return</span> {
+        <span class="code-property">background</span>: <span class="code-string">"Computer Science and Engineering"</span>,
+        <span class="code-property">experience</span>: <span class="code-string">"1 years"</span>,
+        <span class="code-property">interests</span>: [
+            <span class="code-string">"Web Development"</span>,
+            <span class="code-string">"Competitive Programming"</span>,
+            <span class="code-string">"Data Science"</span>
+        ],
+        <span class="code-property">goal</span>: <span class="code-string">"Creating impactful Technology"</span>
+    };
+}</pre>
+                    <div class="circuit-board"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I am a 4th-year Computer Science and Engineering student at Adama Science and Technology University with a passion for problem-solving, algorithms, and the transformative potential of AI. I have a strong foundation in web development and enjoy leveraging my skills to create impactful solutions.</p>
+                <p>I am driven by curiosity and committed to continuous learning and growth in the tech field. Through my participation in the A2SV (Africa to Silicon Valley) Community, I've developed strong problem-solving skills in Data Structures and Algorithms, optimizing solutions through coding challenges on LeetCode and Codeforces.</p>
+                <a href="https://drive.google.com/uc?export=download&id=1xUxPM9-FuF9WpA3_7NdfyrFPXjGA4xl4" class="btn primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Education Section -->
+    <section id="education" class="education">
+        <div class="section-header">
+            <h2>My <span class="gradient-text">Education</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">05/2022 - 07/2026</div>
+                <div class="timeline-content">
+                    <h3>BSc. Computer Science and Engineering</h3>
+                    <h4>Adama Science and Technology University</h4>
+                    <p>Relevant Coursework: Database Management System, Design and Analysis of Algorithms, Data Structures, Object Oriented Programming (OOP).</p>
+                    <div class="tags">
+                        <span>Computer Science</span>
+                        <span>Engineering</span>
+                        <span>Algorithms</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">03/2024 - present</div>
+                <div class="timeline-content">
+                    <h3>A2SV In-Person Education Program</h3>
+                    <h4>Africa to Silicon Valley (A2SV)</h4>
+                    <p>Intensive training in Data Structures, Algorithms, and Problem-Solving. Developed strong technical skills through daily coding challenges and competitive programming contests.</p>
+                    <div class="tags">
+                        <span>Algorithms</span>
+                        <span>Data Structures</span>
+                        <span>Problem Solving</span>
+                        <span>Competitive Programming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Work <span class="gradient-text">Experience</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">07/2024 - 09/2024</div>
+                <div class="timeline-content">
+                    <h3>Junior Developer Intern</h3>
+                    <h4>IE Network and Solutions</h4>
+                    <p>Built a full-stack web application with React.js, Node.js, Express.js, and PostgreSQL. Contributed to 80% of front-end development, improving UI/UX and functionality. Optimized back-end processes, reducing response time by 25%.</p>
+                    <div class="tags">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="tech-stack">
+        <div class="section-header">
+            <h2>Technical <span class="gradient-text">Skills</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="tech-categories">
+            <div class="category">
+                <h3>Frontend</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>Redux</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Backend</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-server"></i>
+                        <span>Express</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-code"></i>
+                        <span>REST API</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Tools & Others</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-terminal"></i>
+                        <span>Command Line</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Version Control</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-tasks"></i>
+                        <span>Agile/Scrum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My <span class="gradient-text">Projects</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="project-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <div class="project-preview">
+                        <div class="code-preview">
+                            <div class="code-line"><span class="code-keyword">import</span> React <span class="code-keyword">from</span> <span class="code-string">'react'</span>;</div>
+                            <div class="code-line"><span class="code-keyword">function</span> <span class="code-function">SmartRecruit</span>() {</div>
+                            <div class="code-line indent"><span class="code-keyword">return</span> (</div>
+                            <div class="code-line indent-2">&lt;<span class="code-tag">div</span>&gt;HR Recruitment System&lt;/<span class="code-tag">div</span>&gt;</div>
+                            <div class="code-line indent">);</div>
+                            <div class="code-line">}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Smart Recruit</h3>
+                    <p>Automated HR Recruitment and Management System that reduced manual HR tasks by 30% and increased recruitment efficiency by 40%.</p>
+                    <div class="project-tags">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>Redux</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small"><i class="fas fa-eye"></i>No Live Demo</a>
+                        <a href="https://github.com/Abdulazizgr/SmartRecruit" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <div class="project-preview">
+                        <div class="code-preview">
+                            <div class="code-line"><span class="code-keyword">import</span> java.sql.*;</div>
+                            <div class="code-line"><span class="code-keyword">public class</span> <span class="code-function">ClubManagement</span> {</div>
+                            <div class="code-line indent"><span class="code-keyword">public void</span> registerClub() {</div>
+                            <div class="code-line indent-2">// Club registration logic</div>
+                            <div class="code-line indent">}</div>
+                            <div class="code-line">}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ASTU Student Club Management System</h3>
+                    <p>Student club management system that reduced paperwork and manual oversight by 50%, enabling club registration, event scheduling, and member tracking.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>XML</span>
+                        <span>HTML/CSS</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small"><i class="fas fa-eye"></i>No Live Demo</a>
+                        <a href="https://github.com/Muhammed-shamsadin/ASTU-Student-Club-Event-Management-System" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <div class="project-preview">
+                        <div class="code-preview">
+                            <div class="code-line"><span class="code-tag"><!DOCTYPE html></span></div>
+                            <div class="code-line"><span class="code-tag"><html></span></div>
+                            <div class="code-line indent"><span class="code-tag"><head></span></div>
+                            <div class="code-line indent-2"><span class="code-tag"><title></span>Portfolio<span class="code-tag"></title></span></div>
+                            <div class="code-line indent"><span class="code-tag"></head></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio website showcasing my projects and skills with a modern design.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://muhammed-samson.vercel.app/" class="btn small"><i class="fas fa-eye"></i> Live Demo</a>
+                        <a href="https://github.com/Muhammed-shamsadin/My-portfolio" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In <span class="gradient-text">Touch</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>I'm currently available for freelance work or full-time positions. If you have a project that needs some creative touch, I'd love to hear about it.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>muhammedsamsoon@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+251947753588</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Addis Ababa, Ethiopia</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Muhammed-shamsadin" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammed-samson/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Muhammed Samson</span>
+                <p>Software Engineer</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#tech">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/Muhammed-shamsadin" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammed-samson/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Muhammed Samson. All Rights Reserved.</p>
+            <p>Designed & Built with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
